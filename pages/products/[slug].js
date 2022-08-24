@@ -2,9 +2,9 @@ import { useRouter } from 'next/router'
 
 const Slug = () => {
   const router = useRouter()
-  const { pid } = router.query
+  const { slug } = router.query
 
-  return <p>Slug: {pid}</p>
+  return <p>The product is: {slug}</p>
 }
 
 export default Slug
