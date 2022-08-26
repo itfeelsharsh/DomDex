@@ -34,7 +34,7 @@ export default function Home() {
                     <h1 className="title-font text-lg font-medium text-white mb-3">
                       Fruit Drinks
                     </h1>
-                    <p className="leading-relaxed mb-3">Finest. Greatest. Best. Buy now! our fruit juice range made with farm fresh fruits </p>
+                    <div> <div className="leading-relaxed mb-3">Finest. Greatest. Best. Buy now! our fruit juice range made with farm fresh fruits </div> </div>
                     <div className="flex items-center flex-wrap ">
                       <a className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">
                         <Link href={'/fruit_drinks'}>Buy now!</Link>
@@ -73,7 +73,7 @@ export default function Home() {
                     <h1 className="title-font text-lg font-medium text-white mb-3">
                       Fashion
                     </h1>
-                    <p className="leading-relaxed mb-3">Cloths, Shoes, Socks, Sunglasses everything that is related to fashion we`ve it</p>
+                    <div> <div className="leading-relaxed mb-3">Cloths, Shoes, Socks, Sunglasses everything that is related to fashion we`ve it </div> </div>
                     <div className="flex items-center flex-wrap">
                       <a className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">
                       <Link href={'/fashion'}>Buy now!</Link>
@@ -112,7 +112,7 @@ export default function Home() {
                     <h1 className="title-font text-lg font-medium text-white mb-3">
                       Electronics
                     </h1>
-                    <p className="leading-relaxed mb-3">Laptops, SmartPhones, Watches, Cameras huge discount on everything only @domdex</p>
+                    <div> <div className="leading-relaxed mb-3">Laptops, SmartPhones, Watches, Cameras huge discount on everything only @domdex </div> </div>
                     <div className="flex items-center flex-wrap ">
                       <a className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">
                       <Link href={'/electronics'}>Buy now!</Link>

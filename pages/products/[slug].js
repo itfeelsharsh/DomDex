@@ -4,7 +4,7 @@ const Slug = () => {
   const router = useRouter()
   const { slug } = router.query
 
-  return <p>The product is: {slug}</p>
+  return <p> <div> The product is: {slug} </div> </p>
 }
 
 export default Slug
